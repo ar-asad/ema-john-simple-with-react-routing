@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Inventory from './component/Inventory/Inventory';
 import Login from './component/Login/Login';
 import OrderReview from './component/OrderReview/OrderReview';
+import SignUp from './component/SignUp/SignUp';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/inventory' element={<Inventory></Inventory>}>
         </Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
 
     </div>
